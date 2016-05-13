@@ -1,0 +1,41 @@
+$color-primary: #D13D3D;
+$font-size: 14px;
+$color-secondary: #58AB5F;
+$color-rightcol: #92AEC3;
+$color-leftcol: #884469;
+body {
+	background: $color-primary;
+	font-size: $font-size;
+}
+.menu {
+	background: $color-primary;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+	float: left;
+	width: 33%;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	& > a {
+		text-decoration: none;
+	}
+}
+.jumbotron {
+	margin-top: 30px;
+	background: $color-secondary;
+	& > img{
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+.right {
+	background: $color-rightcol;
+}
+.left {
+	background: $color-leftcol;
+}
