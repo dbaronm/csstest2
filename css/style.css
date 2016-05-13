@@ -9,13 +9,13 @@ ul {
   padding: 0px;
   margin: 0px; }
 
-nav ul li {
+nav > ul > li {
   float: left;
   width: 33%;
   list-style: none;
   padding: 0px;
   margin: 0px; }
-  nav ul li > a {
+  nav > ul > li > a {
     text-decoration: none; }
 
 .jumbotron {
@@ -27,8 +27,12 @@ nav ul li {
 
 .right {
   background: #92AEC3; }
+  .right > figure > figcaption {
+    text-align: right; }
 
 .left {
   background: #884469; }
+  .left > figure > figcaption {
+    text-align: left; }
 
 /*# sourceMappingURL=style.css.map */

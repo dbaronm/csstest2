@@ -15,7 +15,7 @@ ul {
 	margin: 0px;
 }
 
-nav ul li {
+nav > ul > li {
 	float: left;
 	width: 33%;
 	list-style: none;
@@ -35,7 +35,14 @@ nav ul li {
 }
 .right {
 	background: $color-rightcol;
+	& > figure > figcaption {
+		text-align: right;
+}
+
 }
 .left {
 	background: $color-leftcol;
+	& > figure > figcaption {
+		text-align: left;
+}
 }
